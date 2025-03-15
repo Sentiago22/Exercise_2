@@ -1,0 +1,17 @@
+{
+  "name": "suv-master",
+  "version": "1.0.0",
+  "description": "Это клиентское приложение электронной почты, разработанное с использованием JavaScript/TypeScript. Приложение предоставляет удобный интерфейс для работы с электронной почтой, включая отправку,  получение и управление письмами.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "nodemailer": "^6.10.0"
+  }
+}
