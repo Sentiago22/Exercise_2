@@ -67,6 +67,3 @@ EXERCISE_2/
 ## License
 
 This project is open source and available under the MIT License.
-Test
-Test2
-Test3
