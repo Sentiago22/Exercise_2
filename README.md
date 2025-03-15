@@ -1,24 +1,69 @@
-# Email Client App
 
-Это клиентское приложение электронной почты, разработанное с использованием JavaScript/TypeScript. Приложение предоставляет удобный интерфейс для работы с электронной почтой, включая отправку, 
-получение и управление письмами.
+# Node.js Application
 
-## Описание
+This project is a simple Node.js application with a nice user interface. It demonstrates the use of Node.js and Bootstrap to create a responsive web page. The application features the inclusion of images and the handling of a button click event.
 
-Email Client App использует такие инструменты, как **VSCode** для разработки и **Postman** для тестирования API. С помощью VSCode можно быстро и эффективно разрабатывать интерфейс и логику 
-приложения, а Postman используется для тестирования запросов к серверу, которые обрабатывают электронные письма.
+## Project Structure
 
-## Используемые технологии
+```
+EXERCISE_2/
+├── public/
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── script.js
+│   └── images/
+│       └── js.png     <-- Example image used in the project
+├── views/
+│   └── index.html
+└── index.js           <-- Main server file
+├── package-lock.json
+├── package.json
+└── .gitignore
+```
 
-- **JavaScript/TypeScript**: Основной язык разработки.
-- **VSCode**: Редактор кода для разработки и отладки приложения.
-- **Postman**: Инструмент для тестирования и отладки API запросов.
+## Contributors
 
-## Автор
+### Nguyen Minh Hieu
+- Responsible for all parts of the project except the `index.js` and logo image.
+- Created and styled the `index.html`, `style.css`, and `script.js` files.
+- Implemented the button click functionality and arranged the page layout using Bootstrap.
 
-Автор проекта: **Нгуен Минь Хиеу**  
-Контактная информация: [hieuminh735@gmail.com]
+### Ali Moussa Adoum
+- Wrote the `index.js` file to set up the server using Node.js and Express.
+- Designed the logo (`nodejs-logo.png`) for the project.
+- Set up routing and served static files such as images, CSS, and JavaScript.
 
-## Лицензия
-Проект распространяется под лицензией MIT. Подробности можно найти в файле LICENSE.
+## Features
 
+- Responsive web page using Bootstrap.
+- Display of images such as `js.png` for visual representation.
+- A button that, when clicked, triggers a JavaScript alert on the page.
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/yourproject.git
+   ```
+   
+2. Navigate to the project directory:
+   ```bash
+   cd yourproject
+   ```
+
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+4. Run the application:
+   ```bash
+   node index.js
+   ```
+
+5. Visit `http://localhost:3000` in your browser to view the application.
+
+## License
+
+This project is open source and available under the MIT License.
