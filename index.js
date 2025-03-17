@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'views', 'index.html'));
 });
 
-// Lắng nghe cổng 3003
-app.listen(3003, () => {
-  console.log('Server đang chạy tại http://localhost:3003');
+// Lắng nghe cổng 3004
+app.listen(3004, () => {
+  console.log('Server đang chạy tại http://localhost:3004');
 });
